@@ -5,6 +5,12 @@ class Cbfmt < Formula
   sha256 "8cb6b9d4602d9fa14e11bb31a09ec25b008e4a62401e6c31fe477b23fcaec144"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/zegervdv/homebrew-tools/releases/download/cbfmt-0.1.1-1"
+    sha256 cellar: :any_skip_relocation, big_sur:      "721d583e62640b411a9118ce54d318e088b2020aece818b5f39c1f181d5279da"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "646a18fe116267bfb9a82981137879ca4c534e88862e76b2a67d3cf107c89da3"
+  end
+
   depends_on "rust" => :build
 
   def install
