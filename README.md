@@ -1,4 +1,6 @@
-# Zegervdv Tools
+# Tools
+
+A collection of tools that are not in core Homebrew for personal use.
 
 ## How do I install these formulae?
 
