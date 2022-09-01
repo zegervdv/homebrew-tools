@@ -6,9 +6,9 @@ class Cbfmt < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/zegervdv/homebrew-tools/releases/download/cbfmt-0.1.1-1"
-    sha256 cellar: :any_skip_relocation, big_sur:      "721d583e62640b411a9118ce54d318e088b2020aece818b5f39c1f181d5279da"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "646a18fe116267bfb9a82981137879ca4c534e88862e76b2a67d3cf107c89da3"
+    root_url "https://github.com/zegervdv/homebrew-tools/releases/download/cbfmt-0.2.0"
+    sha256 cellar: :any_skip_relocation, big_sur:      "46e1d2420ba0a1a0454a788c1b7d41487fe9227f9bec9d11348915d630c98a24"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "0901e73dc1b835142c00b060cadab8d572fe1ca0894067701a673b0861ea8bd8"
   end
 
   depends_on "rust" => :build
